@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div id="main">
-    <nav>
-        <img src="static/squarespace-logo-2-white.jpeg" alt="logo" id="logo">
-        <div id="nav-mid">
-            <h3>PRODUCTS</h3>
-            <h3>TEMPLATES</h3>
-            <h3>RESOURCES</h3>
-        </div>
-        <div id="nav-end">
-            <button>Login</button>
-            <button>Get Started</button>
+    <div id="main">
+        <nav>
+            <img src="static/squarespace-logo-2-white.jpeg" alt="logo" id="logo">
+            <div id="nav-mid">
+                <select id="PRODUCTS">
+                    <option label="PRODUCTS">PRODUCTS</option>
+                </select>
+                <button>TEMPLATES</button>
+                <select id="RESOURCES">
+                    <option label="RESOURCES">RESOURCES</option>
+                </select>
+            </div>
+            <div id="nav-end">
+                <button id="login">LOGIN</button>
+                <button id="get-started">GET STARTED</button>
+            </div>
+        </nav>
+
+        <div id="main-mid">
+
             
-        </div>
-    </nav>
-    
+        <h1>EVERYTHING</h1>
+
+        <h1>TO <span>BOOK NOW</span> SELL</h1>
+        
+        <h1>ANYTHING</h1>
+    </div>
+
+    <div id="main-mid-img">
+
+    <img src="static/image1.jpeg" alt="" id="image1">
+    <img src="static/image2.jpg" alt="" id="image2">
+    <img src="static/image3.jpg" alt="" id="image3">
+    <img src="static/image4.jpg" alt="" id="image4">
 </div>
 
+<button id="scroll">SCROLL DOWN ↓</button>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
